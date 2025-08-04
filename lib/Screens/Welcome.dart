@@ -21,10 +21,10 @@ class _WelcomeState extends State<Welcome> with TickerProviderStateMixin {
   ];
 
   final List<Alignment> basePositions = [
-    const Alignment(1, -0.9),  // top-right
+    const Alignment(1, -0.9), // top-right
     const Alignment(-1, -0.6), // top-left
-    const Alignment(1, 0.3),   // mid-right
-    const Alignment(-1, 0.8),  // bottom-left
+    const Alignment(1, 0.3), // mid-right
+    const Alignment(-1, 0.8), // bottom-left
     const Alignment(0.5, 1.1), // bottom-right
   ];
 
@@ -76,10 +76,7 @@ class _WelcomeState extends State<Welcome> with TickerProviderStateMixin {
                 position: _animations[index],
                 child: Align(
                   alignment: basePositions[index],
-                  child: Image.asset(
-                    veggieImages[index],
-                    height: 60,
-                  ),
+                  child: Image.asset(veggieImages[index], height: 60),
                 ),
               );
             }),
@@ -125,7 +122,10 @@ class _WelcomeState extends State<Welcome> with TickerProviderStateMixin {
                   label: const Text("Start Now"),
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.red,
-                    padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 14),
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 40,
+                      vertical: 14,
+                    ),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(12),
                     ),

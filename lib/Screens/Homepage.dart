@@ -28,9 +28,9 @@ class HomePage extends StatelessWidget {
           ],
         ),
         actions: [
-          Icon(Icons.notifications_none, color: AppColor.textColor,),
+          Icon(Icons.notifications_none, color: AppColor.textColor),
           SizedBox(width: 12),
-          Icon(Icons.more_vert, color: AppColor.textColor,),
+          Icon(Icons.more_vert, color: AppColor.textColor),
           SizedBox(width: 12),
         ],
       ),
@@ -47,7 +47,7 @@ class HomePage extends StatelessWidget {
             IngredientText(
               text:
                   "Your intelligent kitchen companion for smart, sustainable cooking.",
-              color:Colors.white70,
+              color: Colors.white70,
               size: 14,
             ),
             SizedBox(height: 20),
@@ -93,26 +93,26 @@ class HomePage extends StatelessWidget {
                         children: [
                           Text("📆", style: TextStyle(fontSize: 30)),
                           SizedBox(height: 8),
-                           IngredientText(
-                      text: "Today's",
-                      color: AppColor.textColor,
-                      size: 14,
-               
-                      weight: FontWeight.normal,
-                    ), 
+                          IngredientText(
+                            text: "Today's",
+                            color: AppColor.textColor,
+                            size: 14,
+
+                            weight: FontWeight.normal,
+                          ),
                         ],
                       ),
                       Column(
                         children: [
                           Text("⭐", style: TextStyle(fontSize: 30)),
                           SizedBox(height: 8),
-                           IngredientText(
-                      text: "3 Saved",
-                      color: AppColor.textColor,
-                      size: 14,
-               
-                      weight: FontWeight.normal,
-                    ), 
+                          IngredientText(
+                            text: "3 Saved",
+                            color: AppColor.textColor,
+                            size: 14,
+
+                            weight: FontWeight.normal,
+                          ),
                         ],
                       ),
                     ],
@@ -137,17 +137,21 @@ class HomePage extends StatelessWidget {
                   //   "",
                   //   style: TextStyle(color: , fontSize: 16),
                   // ),
-                   IngredientText(
-                      text: "Hello, User!",
-                      color: Colors.white70,
-                      size: 16,
-               
-                      weight: FontWeight.normal,
-                    ), 
+                  IngredientText(
+                    text: "Hello, User!",
+                    color: Colors.white70,
+                    size: 16,
+
+                    weight: FontWeight.normal,
+                  ),
                   SizedBox(height: 8),
-                  
-                  IngredientText(text: "What's in your fridge today?",size: 18,weight: FontWeight.bold,
-                     color: AppColor.textColor,),
+
+                  IngredientText(
+                    text: "What's in your fridge today?",
+                    size: 18,
+                    weight: FontWeight.bold,
+                    color: AppColor.textColor,
+                  ),
 
                   SizedBox(height: 20),
                   Center(
@@ -160,13 +164,17 @@ class HomePage extends StatelessWidget {
                         borderRadius: BorderRadius.circular(16),
                       ),
                       child: Center(
-                        child: 
-                       ButtonText(text: "Fresh Ingredients", color: AppColor.textColor,size: 18,weight: FontWeight.bold,)
+                        child: ButtonText(
+                          text: "Fresh Ingredients",
+                          color: AppColor.textColor,
+                          size: 18,
+                          weight: FontWeight.bold,
+                        ),
                       ),
                     ),
                   ),
 
-                  SizedBox(height: 20, ),
+                  SizedBox(height: 20),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
@@ -192,8 +200,8 @@ class HomePage extends StatelessWidget {
                                 ],
                               ),
                             ),
-                             SizedBox(height: 4,),
-                            ButtonText(text: "Text")
+                            SizedBox(height: 4),
+                            ButtonText(text: "Text"),
                           ],
                         ),
                       ),
@@ -202,7 +210,7 @@ class HomePage extends StatelessWidget {
                         child: Column(
                           children: [
                             Container(
-                               height: 71,
+                              height: 71,
                               width: 89,
                               decoration: BoxDecoration(
                                 color: Color(0xFF3A3850),
@@ -220,8 +228,8 @@ class HomePage extends StatelessWidget {
                                 ],
                               ),
                             ),
-                             SizedBox(height: 4,),
-                            ButtonText(text: "Speak")
+                            SizedBox(height: 4),
+                            ButtonText(text: "Speak"),
                           ],
                         ),
                       ),
@@ -242,8 +250,8 @@ class HomePage extends StatelessWidget {
                                 ],
                               ),
                             ),
-                            SizedBox(height: 4,),
-                            ButtonText(text: "Scan")
+                            SizedBox(height: 4),
+                            ButtonText(text: "Scan"),
                           ],
                         ),
                       ),
